@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+    .tittle{
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .para{
+        font-family: 'Open Sans', sans-serif;
+    }
+      .fa-facebook,
+      .fa-instagram,
+      .fa-twitter {
+        color: white;
+      }
+      .fa {
+        width: 50px;
+        padding: 20px;
+      }
+      .fa:hover {
+        opacity: 0.5;
+      }
+      @media (max-width: 500px) {
+      }
+      @media (max-width: 800px) {
+        .cards {
+          flex-direction: column;
+        }
+      }
+
+      .card {
+        opacity: 0.9;
+      }
+      .card:hover {
+        transform: scale(1.03);
+        transition: ease-in-out 0.5s;
+        opacity: 1;
+      }
+      .img{
+        height: 50vh;
+        width: 30vw
+      }
+
+      .nav-item:hover{
+        background-color: aqua;
+        transform: scale(1.02);
+      }
+
+      #contack{
+      }
+
+      .text{
+        font-family: 'Open Sans', sans-serif;
+      }
+
+@media (max-width :520px){
+      .nav{
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+}
