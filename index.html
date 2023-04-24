@@ -17,28 +17,40 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-  <header class="container-fluid d-flex justify-content-between fixed-top">
-    <div class="navbar-brand">
-      <h1 class="heading p-2">
-        <a class="text-decoration-none" href="">GN</a>
-      </h1>
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-transparent">
+    <div class="container-fluid d-flex justify-content-between">
+
+      <a class="navbar-brand fs-2 " href="#main">GN</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
     </div>
-    <div class="navbar" id="">
-      <ul class="nav nav-pills">
-        <li class="nav-item bg-gradient">
-          <a class="nav-link" href="#about" id="nav-link">About</a>
+    <div class="collapse navbar-collapse" >
+      <ul class="navbar-nav  nav-pills bg-gradient me-auto mb-2 mb-lg-0 ms-4">
+        
+        <!-- <li class="nav-item ">
+          <a class="nav-link  active" aria-current="page" href="#main">Home</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link  " aria-current="page" href="#about">About</a>
         </li>
-        <li class="nav-item bg-gradient">
-          <a class="nav-link" href="#projects" id="nav-link">Projects</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
-        <li class="nav-item bg-gradient">
-          <a class="nav-link" href="#contact" id="nav-link">Contact</a>
+        <li class="nav-item ">
+          <a class="nav-link " href="#contact" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Contact
+          </a>
         </li>
       </ul>
     </div>
-  </header>
-  <main class="data-mdb-container">
-    <div class="bg-image d-flex justify-content-center align-items-center" style="
+    </div>
+  </nav>
+  <main id="main" class="data-mdb-container">
+    <div id="main" class="bg-image d-flex justify-content-center align-items-center" style="
           background-size: 100%;
           max-width: 100vw;
           height: 100vh;
@@ -126,33 +138,47 @@ Frontend Developer </pre>
       <div class="title bg-primary">
         <h2 class="text-center p-3 border-dark">Projects</h2>
       </div>
-      <div class="card-groups">
-        <div class="cards bg-gradient ">
-          <div class="card border-dark mt-4">
+      
+    <div class="container-fluid h-100 d-flex justify-content-evenly flex-lg-nowrap">
+      <div class="card border-dark m-lg-2">
+        <div class="row  g-0">
+            <div class="card-header">
+              <h3 class="card-title text-center">Calculator</h3>
+            </div>
+          <div class="col-md">
             <div class="card-body">
-              <div class="card-header">
-                <h3 class="card-title text-center">Calculator</h3>
-                <a href="preview.html" class="link">
-                  <img class="card-img" src="assets/cal.png" alt="" /></a>
-              </div>
+              <a href="#" class="link">
+                <img class="card-img" src="assets/cal.png" alt=""
+              /></a>
             </div>
           </div>
-          <div class="card">
+        </div>
+      </div>
+      <div class="card border-dark m-lg-2">
+        <div class="row g-0">
+            <div class="card-header">
+              <h3 class="card-title text-center">To-Do List</h3>
+            </div>
+          <div class="col-md">
             <div class="card-body">
-              <div class="card-header">
-                <h3 class="card-title text-center">To-Do List</h3>
-                <img class="card-img" src="assets/cal.png" alt="" />
-              </div>
+              <a href="#" class="link">
+                <img class="card-img" src="assets/cal.png" alt=""
+              /></a>
             </div>
           </div>
-          <div class="card">
-            <div class="card-body">
-              <div class="card-header">
-                <h3 class="card-title text-center">Blog Site</h3>
-                <img class="card-img" src="assets/cal.png" alt="" />
-              </div>
+        </div>
+      </div>
+      <div class="card border-dark m-lg-2">
+        <div class="row g-0">
+            <div class="card-header">
+              <h3 class="card-title text-center">Landing Page</h3>
             </div>
-
+          <div class="col-md">
+            <div class="card-body">
+              <a href="#" class="link">
+                <img class="card-img" src="assets/cal.png" alt=""
+              /></a>
+            </div>
           </div>
         </div>
       </div>

@@ -41,21 +41,9 @@
         width: 30vw
       }
 
-      .nav-item:hover{
-        background-color: aqua;
-        transform: scale(1.02);
-      }
-
       #contack{
       }
 
       .text{
         font-family: 'Open Sans', sans-serif;
       }
-
-@media (max-width :520px){
-      .nav{
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-}
